@@ -1,0 +1,211 @@
+/*
+Author : 
+Dev: Nishan Mazumder
+Site: 
+Keyword: 
+*/
+
+/*Global*/
+*{}
+body{
+	background: #F8F7F7;
+	margin-top: 30px;
+}
+ul, li{
+	list-style: none;
+}
+
+.nm-profile-page h3{
+	font-size: 20px;
+}
+.nm-profile-page p{
+	text-align: justify;
+}
+
+
+/*Left Section*/
+.nm-left-area{
+	color: #686A6C;
+	background: #fff;
+	padding: 15px;
+	border:1px solid #D6D5D5;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.nm-header-img{
+	width: 100%;
+}
+
+.nm-title{
+	
+}
+.nm-title h3{
+	text-align: center;
+	font-size: 22px;
+}
+.nm-title p{
+	text-align: center;
+	font-weight: 300;
+}
+.nm-left-area ul{
+	padding: 0px !important;
+	font-size: 14px;
+	line-height: 30px;
+}
+.nm-left-area ul li:hover{
+	border: 1px solid #4580E2;
+}
+
+.nm-submit-area button{
+	background: #78B300;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	width: 100%;
+	cursor: pointer;
+	transition: .7s;
+}
+
+.nm-submit-area button:hover{
+	border: 1px solid #78B300;
+	color: #78B300;
+	background: transparent;
+}
+.nm-submit-area p{
+	font-size: 14px;
+	text-align:  center;
+}
+.nm-submit-area i{
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	color:#D6D5D5;
+	cursor: pointer;
+	transition: .7s;
+}
+.nm-submit-area i:hover{
+	color: #78B300;
+}
+
+/*Right Section*/
+.nm-right-area{}
+.nm-about-area{
+	border:1px solid #D6D5D5;
+	border-radius: 5px;
+	color: #686A6C;
+	background: #fff;
+	padding: 15px;
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 20px;
+}
+.nm-about-area h3{
+	margin-bottom: 20px;
+}
+.nm-block{
+	height: 320px;
+	float: left;
+	border:1px solid #D6D5D5;
+	border-radius: 5px;
+	color: #686A6C;
+	background: #fff;
+	padding: 15px;
+}
+.nm-block-area h3{
+	margin-bottom: 20px;
+}
+.nm-block-instrunment{
+	width: 30%;
+	margin-right: 3.33%;
+}
+.nm-img-block{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.nm-block-instrunment ul{
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px !important;
+}
+.nm-block-instrunment img{
+	width: 60%;
+	display: block;
+	margin: 0px auto;
+}
+.nm-block-music{
+	width: 25%;
+	font-size: 16px;
+	margin-right: 3.33%;
+}
+.nm-block-music ul{
+	font-size: 14px;
+}
+.nm-block-faq{
+	width: 38.3%;
+}
+
+@media only screen and (max-width:780px){
+	.nm-submit-area button{
+		width: 95%;
+	}
+	.nm-block-instrunment{
+		width: 50%;
+	}
+	.nm-block-music{
+		width: 43%;
+	}
+	.nm-block-faq{
+		margin-top: 20px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width:650px){
+	
+	.nm-profile-page h3{
+		font-size: 26px !important;
+		text-align: center;
+	}
+	.nm-profile-page p{
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.nm-block ul{
+		padding: 0px;
+		font-size: 16px;
+		text-align: center;
+	}
+	.nm-left-area ul{
+		text-align: center;
+		font-size: 18px;
+	}
+	.nm-submit-area button{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.nm-about-area{
+		margin-top: 20px;
+	}
+	.nm-block-instrunment img{
+		width: 10%;
+		margin-bottom: 10px;
+	}
+	.nm-block-instrunment{
+		width: 100%;
+		height: auto;
+	}
+	.nm-block-music{
+		width: 100%;
+		height: auto;
+		margin-top: 20px;
+	}
+	.nm-block-faq{
+		width: 100%;
+	}
+	
+}
